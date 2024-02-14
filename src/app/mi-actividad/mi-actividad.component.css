@@ -1,0 +1,77 @@
+.mi-actividad {
+    display: grid;
+    margin: 2rem;
+}
+
+.imagen-span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imagen-actividad {
+    width: 3rem;
+    height: 3rem;
+}
+
+.buscador-container {
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.buscador-input {
+    width: 20rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.table tr:nth-child(odd):hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.table tr:nth-child(even):hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.tabla-container {
+    padding: 1rem;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.mat-column-descarga {
+    text-align: center;
+}
+
+
+.table-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.descargar {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.descargar:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}

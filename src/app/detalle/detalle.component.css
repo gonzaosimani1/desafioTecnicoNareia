@@ -1,0 +1,88 @@
+.mi-actividad {
+    display: grid;
+    margin: 2rem;
+}
+
+.imagen-span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imagen-actividad {
+    width: 3rem;
+    height: 3rem;
+}
+
+.tabla-container {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1.5rem;
+
+}
+
+.detalle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+.nombre-servicio,
+.referencia,
+.fecha-pago {
+    grid-column: span 1;
+}
+
+.importe {
+    grid-column: 3;
+    grid-row: span 2;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.valor {
+    margin-top: 0.5rem;
+}
+
+.botones-container {
+    display: flex;
+    justify-content: end;
+}
+
+.boton-container {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.boton-inicio {
+    border: 0.1rem solid blue;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: blue;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-inicio:hover {
+    background-color: blue;
+    color: white;
+}
+
+.boton-compartir {
+    background-color: green;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-compartir:hover {
+    background-color: darkgreen;
+}

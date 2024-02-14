@@ -1,0 +1,36 @@
+<div class="mi-actividad">
+    <div>
+        <span class="imagen-span">
+            <img class="imagen-actividad" src="../../assets/actividad.png">Detalle
+        </span>
+    </div>
+    <div class="tabla-container">
+        <div class="detalle-container">
+            <div class="nombre-servicio">
+                <div class="titulo">Servicio</div>
+                <div class="valor">{{detalleServicio.nombreServicio}}</div>
+            </div>
+            <div class="referencia">
+                <div class="titulo">Referencia</div>
+                <div class="valor">{{detalleServicio.referencia}}</div>
+            </div>
+            <div class="fecha-pago">
+                <div class="titulo">Fecha de Pago</div>
+                <div class="valor">{{detalleServicio.fechaPago}}</div>
+            </div>
+
+            <div class="importe">
+                <div class="titulo">Importe</div>
+                <div class="valor"><strong>{{ detalleServicio.importe | currency }}</strong></div>
+            </div>
+        </div>
+        <div class="botones-container">
+            <div class="boton-container">
+                <button class="boton-inicio" (click)="irAlInicio()">Ir al Inicio</button>
+            </div>
+            <div class="boton-container">
+                <button class="boton-compartir" (click)="compartir()">Compartir</button>
+            </div>
+        </div>
+    </div>
+</div>
